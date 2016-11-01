@@ -1,15 +1,22 @@
 import React, { PropTypes } from 'react'
+import { Button, Row, Col } from 'react-bootstrap';
 
 export const Counter = (props) => (
     <div style={{ margin: '0 auto' }} >
         <h2>Counter: {props.counter}</h2>
-        <button className='btn btn-default' onClick={props.increment}>
+        <Button
+            bsStyle="default"
+            bsSize="large"
+            onClick={props.increment}>
             Increment
-        </button>
+        </Button>
         {' '}
-        <button className='btn btn-default' onClick={props.doubleAsync}>
+        <Button
+            bsStyle="info"
+            bsSize="large"
+            onClick={props.doubleAsync}>
             Double (Async)
-        </button>
+        </Button>
     </div>
 )
 

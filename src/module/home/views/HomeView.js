@@ -2,7 +2,6 @@ import React, { PropTypes } from 'react'
 import { connect } from 'react-redux'
 import { Grid, Row, Col } from 'react-bootstrap';
 import { increment, doubleAsync } from '../components/counter/redux/counter'
-import DuckImage from '../assets/Duck.jpg'
 import { Counter } from '../components/counter'
 import '../assets/HomeView.css'
 
@@ -18,8 +17,8 @@ export class HomeView extends React.Component {
         return (
             <Grid bsClass={'text-center'}>
                 <Row>
-                    <Col xs={6} xsOffset={3}>
-                        <img src={DuckImage} alt='This is a duck, because Redux.' />
+                    <Col xs={12}>
+                            <p className="app-intro">To get started, edit <code>src/module/home/view/HomeView.js</code> and save to reload.</p>
                         <Counter counter={this.props.counter} doubleAsync={this.props.doubleAsync} increment={this.props.increment} />
                     </Col>
                 </Row>
