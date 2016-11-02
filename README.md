@@ -27,15 +27,15 @@ The application structure using fractal structure, where functionality is groupe
 ├── public                          # Public folder
 │   └── index.html                  # Main HTML page container for app
 └── src                             # Application source code
-    ├── common                      # Global Reusable Presentational Components
+    ├── common                      # Global Reusable Components
     ├── containers                  # Global Reusable Container Components
     ├── layouts                     # Components for major page structure
     ├── module                      # Main module definitions
-    │   └── Home                    # Fractal module
+    │   └── home                    # Fractal module
     │       ├── index.js            # Module definitions include store and views
     │       ├── assets              # Assets required
-    │       ├── components          # Presentational React Components
-    │       │   └── counter         # Component definitions for module
+    │       ├── components          # Components for module
+    │       │   └── Counter         # Component definitions for module
     │       │       ├── assets      # Assets required for component
     │       │       ├── counter.js  # Component views
     │       ├── redux               # Collections of reducers/constants/actions for module
@@ -62,7 +62,11 @@ The application structure using fractal structure, where functionality is groupe
 
 ## Thank You
 
-This project wouldn't be possible without inspired from the community, so thanks a lot for help and your inspired. so i can make this starter kit.
+This project wouldn't be possible without inspired from the community, so thanks a lot for help and your inspired. so i can make this starter kit. and for all contributor Thank you for your hard work :)
 
 * [Facebook Incubator](https://github.com/facebookincubator/create-react-app)
-* [David Zukowski](https://github.com/davezuko/react-redux-starter-kit)
+* [David Zukowski](https://github.com/davezuko)
+* [Yansen Armandau](https://github.com/yansenarmandau)
+
+
+

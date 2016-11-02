@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react'
 import { Button } from 'react-bootstrap';
-import 'assets/counter.css';
+import './assets/counter.css';
 
 export const Counter = (props) => (
     <div style={{ margin: '0 auto' }} >
