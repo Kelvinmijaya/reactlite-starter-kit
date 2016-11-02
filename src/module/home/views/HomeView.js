@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react'
 import { connect } from 'react-redux'
 import { Grid, Row, Col } from 'react-bootstrap';
-import { increment, doubleAsync } from '../components/counter/redux/counter'
+import { increment, doubleAsync } from '../redux/home'
 import Counter from '../components/counter/counter'
 import '../assets/HomeView.css'
 

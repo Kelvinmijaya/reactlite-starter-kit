@@ -1,5 +1,5 @@
 import React from 'react'
-import './CoreLayout.css'
+import './assets/CoreLayout.css'
 import { Header } from '../../common/header'
 
 export const CoreLayout = ({ children }) => (
