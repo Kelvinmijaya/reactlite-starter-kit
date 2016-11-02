@@ -7,7 +7,7 @@ This project template was built with [Create React App](https://github.com/faceb
 First, clone the project:
 
 ```bash
-$ git clone https://github.com/kelvinmijaya/taralite-starter-kit.git <my-project-name>
+$ git clone https://github.com/Kelvinmijaya/taralite-starter-kit.git <my-project-name>
 $ cd <my-project-name>
 ```
 
