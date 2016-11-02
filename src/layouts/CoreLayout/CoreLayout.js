@@ -1,6 +1,6 @@
 import React from 'react'
-import './CoreLayout.css'
-import { Header } from '../../common/header'
+import './assets/CoreLayout.css'
+import { Header } from '../../common/Header'
 
 export const CoreLayout = ({ children }) => (
     <div className="app">
