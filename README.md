@@ -57,24 +57,11 @@ The application structure using fractal structure, where functionality is groupe
 |`npm run eject`|If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time.|
 |`npm test`|Runs unit tests with jest.|
 
-## React Bootstrap
-
-React-Bootstrap is a library of reusable front-end components. You'll get the look-and-feel of Twitter Bootstrap, but with much cleaner code, via Facebook's React.js framework. see detail -> [React Bootstrap](https://react-bootstrap.github.io/)
-
-here's some example
-
-```
-<Button bsStyle="success" bsSize="small" onClick={someCallback}>
-  Something
-</Button>
-```
-
 ## Thank You
 
 This project wouldn't be possible without inspired from the community, so thanks a lot for help and your inspired. so i can make this starter kit. and for all contributor Thank you for your hard work :)
 
 * [Facebook Incubator](https://github.com/facebookincubator/create-react-app)
-* [React Bootstrap](https://react-bootstrap.github.io/)
 * [David Zukowski](https://github.com/davezuko)
 * [Yansen Armandau](https://github.com/yansenarmandau)
 
