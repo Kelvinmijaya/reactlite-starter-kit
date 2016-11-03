@@ -1,4 +1,5 @@
 import React from 'react'
+import './assets/normalize.css'
 import './assets/CoreLayout.css'
 import { Header } from '../../common/Header'
 
