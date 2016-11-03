@@ -17,7 +17,7 @@ export class HomeView extends React.Component {
             <div className="container text-center" >
                 <div className="row">
                     <div className="col-xs-12">
-                        <p className="app-intro">To get started, edit <code>src/module/home/view/HomeView.js</code> and save to reload.</p>
+                        <p className="app-intro">To get started, edit <code>src/module/home/views/HomeView.js</code> and save to reload.</p>
                         <Counter counter={this.props.home} doubleAsync={this.props.doubleAsync} increment={this.props.increment} />
                     </div>
                 </div>
