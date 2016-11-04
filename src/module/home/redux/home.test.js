@@ -17,11 +17,7 @@ describe('increment reducer', () => {
     it('should return the initial state', () => {
         expect(
             reducer(undefined, {})
-        ).toEqual(
-            {
-                home: 0
-            }
-        )
+        ).toEqual(0)
     })
 
     it('should handle COUNTER_INCREMENT', () => {

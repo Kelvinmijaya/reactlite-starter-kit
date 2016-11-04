@@ -33,9 +33,7 @@ const ACTION_HANDLERS = {  [COUNTER_INCREMENT] : (state, action) => state + ac
 // ------------------------------------ //
 // Reducer
  // ------------------------------------ //
-const initialState = {
-    home: 0
-} 
+const initialState = 0
 export default function homeReducer (state = initialState, action) { 
     const handler = ACTION_HANDLERS[action.type]  
     return handler ? handler(state, action) : state 
