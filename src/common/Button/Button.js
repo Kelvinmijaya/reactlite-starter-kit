@@ -12,7 +12,7 @@ export const Button = (props) => (
 
 Button.propTypes = {
     isRequesting: PropTypes.bool,
-    type: PropTypes.string.isRequired,
+    types: PropTypes.string.isRequired,
     eventClick: PropTypes.func,
     classes: PropTypes.string,
     label: PropTypes.string.isRequired
