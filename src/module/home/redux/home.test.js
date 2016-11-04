@@ -1,9 +1,41 @@
-import { increment } from './home'
+import reducer, { increment } from './home'
+const COUNTER_INCREMENT = 'COUNTER_INCREMENT'
 
-test('adds +1 increment', () => {
-    const expectedAction = {
-        type: "COUNTER_INCREMENT",
-        payload: 1
-    }
-    expect(increment(1)).toEqual(expectedAction)
+// Test script for action
+describe('Describe Actions', () => {
+    it('adds +1 increment', () => {
+        const expectedAction = {
+            type: COUNTER_INCREMENT,
+            payload: 1
+        }
+        expect(increment(1)).toEqual(expectedAction)
+    });
 });
+
+// Test script for reducers
+// describe('increment reducer', () => {
+//     it('should return the initial state', () => {
+//         expect(
+//             reducer(undefined, {})
+//         ).toEqual([
+//             {
+//                 home: 0
+//             }
+//         ])
+//     })
+//
+//     it('should handle COUNTER_INCREMENT', () => {
+//         expect(
+//             reducer([], {
+//                 type: COUNTER_INCREMENT,
+//                 home: 1
+//             })
+//         ).toEqual(
+//             [
+//                 {
+//                    home: 1
+//                 }
+//             ]
+//         )
+//     })
+// })

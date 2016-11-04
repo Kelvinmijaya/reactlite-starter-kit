@@ -28,7 +28,7 @@ export function increment (value = 1) { 
 // ------------------------------------ //
 // Action Handlers 
 // ------------------------------------ //
-const ACTION_HANDLERS = {     [COUNTER_INCREMENT] : (state, action) => state + action.payload }  
+const ACTION_HANDLERS = {  [COUNTER_INCREMENT] : (state, action) => state + action.payload  }  
 
 // ------------------------------------ //
 // Reducer
