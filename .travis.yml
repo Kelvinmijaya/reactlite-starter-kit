@@ -14,7 +14,7 @@ install:
 script:
   - npm test
   - npm start
-  - npm build
+  - npm run build
 
 notifications:
   email:
