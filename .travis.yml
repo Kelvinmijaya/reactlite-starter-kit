@@ -9,6 +9,7 @@ cache:
 
 install:
   - npm install
+  - travis_wait mvn install
 
 script:
   - npm test
