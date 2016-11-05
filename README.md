@@ -23,29 +23,30 @@ $ npm start                     # Compile and launch
 The application structure using fractal structure, where functionality is grouped and named by feature / module, it's very useful for modularity.
 ```
 .
-├── build                           # All build for 'npm run build'
-├── public                          # Public folder
-│   └── index.html                  # Main HTML page container for app
-└── src                             # Application source code
-    ├── common                      # Global Reusable Components
-    ├── containers                  # Global Reusable Container Components
-    ├── layouts                     # Components for major page structure
-    ├── module                      # Main module definitions
-    │   └── home                    # Fractal module
-    │       ├── index.js            # Module definitions include store and views
-    │       ├── assets              # Assets required
-    │       ├── components          # Components for module
-    │       │   └── Counter         # Component definitions for module
-    │       │       ├── assets      # Assets required for component
-    │       │       ├── counter.js  # Component views
-    │       ├── redux               # Collections of reducers/constants/actions for module
-    │       └── views               # Module views
-    ├── reducers                    # Redux Reducers
-    │   └── rootReducer.js          # Root for all reducer
-    ├── store                       # Redux store
-    │   └── configureStore.js       # Instrument redux store
-    ├── index.js                    # Server application entry point
-    └── routes.js                   # Main application routes
+├── build                                   # All build for 'npm run build'
+├── public                                  # Public folder
+│   └── index.html                          # Main HTML page container for app
+└── src                                     # Application source code
+    ├── common                              # Global Reusable Components
+    ├── containers                          # Global Reusable Container Components
+    ├── layouts                             # Components for major page structure
+    ├── module                              # Main module definitions
+    │   └── home                            # Fractal module
+    │       ├── index.js                    # Module definitions include store and views
+    │       ├── assets                      # Assets required
+    │       ├── components                  # Components for module
+    │       │   └── Counter                 # Component definitions for module
+    │       │       ├── assets              # Assets required for component
+    │       │       ├── Counter.js          # Component views
+    │       │       └── Counter.test.js     # Test Script using jest
+    │       ├── redux                       # Collections of reducers/constants/actions for module
+    │       └── views                       # Module views
+    ├── reducers                            # Redux Reducers
+    │   └── rootReducer.js                  # Root for all reducer
+    ├── store                               # Redux store
+    │   └── configureStore.js               # Instrument redux store
+    ├── index.js                            # Server application entry point
+    └── routes.js                           # Main application routes
 ```
 
 ## Available Scripts
