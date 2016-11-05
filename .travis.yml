@@ -13,6 +13,8 @@ install:
 script:
   - npm test
   - npm start
-
-after_success:
   - npm build
+
+notifications:
+  email:
+    - kelvin.mijaya@taralite.com
