@@ -37,9 +37,10 @@ The application structure using fractal structure, where functionality is groupe
     │       ├── components                  # Components for module
     │       │   └── Counter                 # Component definitions for module
     │       │       ├── assets              # Assets required for component
-    │       │       ├── Counter.js          # Component views
-    │       │       └── Counter.test.js     # Test Script using jest
+    │       │       └── Counter.js          # Component views
     │       ├── redux                       # Collections of reducers/constants/actions for module
+    │       │   ├── home.js                 # Reducers/constants/actions in home module
+    │       │   └── home.test.js            # Test Script using jest
     │       └── views                       # Module views
     ├── reducers                            # Redux Reducers
     │   └── rootReducer.js                  # Root for all reducer
