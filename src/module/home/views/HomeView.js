@@ -7,10 +7,10 @@ import '../assets/HomeView.css'
 export class HomeView extends React.Component {
     render () {
         return (
-            <div>
-                <p className="app-intro">To get started, edit <code>src/module/home/view/HomeView.js</code> and save to reload.</p>
-                <Counter counter={this.props.home} doubleAsync={this.props.doubleAsync} increment={this.props.increment} />
-            </div>
+          <div>
+            <p className="app-intro">To get started, edit <code>src/module/home/view/HomeView.js</code> and save to reload.</p>
+            <Counter counter={this.props.home} doubleAsync={this.props.doubleAsync} increment={this.props.increment} />
+          </div>
         )
     }
 }

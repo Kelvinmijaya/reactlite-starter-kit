@@ -13,29 +13,19 @@ describe('Describe Actions', () => {
 });
 
 // Test script for reducers
-// describe('increment reducer', () => {
-//     it('should return the initial state', () => {
-//         expect(
-//             reducer(undefined, {})
-//         ).toEqual([
-//             {
-//                 home: 0
-//             }
-//         ])
-//     })
-//
-//     it('should handle COUNTER_INCREMENT', () => {
-//         expect(
-//             reducer([], {
-//                 type: COUNTER_INCREMENT,
-//                 home: 1
-//             })
-//         ).toEqual(
-//             [
-//                 {
-//                    home: 1
-//                 }
-//             ]
-//         )
-//     })
-// })
+describe('increment reducer', () => {
+    it('should return the initial state', () => {
+        expect(
+            reducer(undefined, {})
+        ).toEqual(0)
+    })
+
+    it('should handle COUNTER_INCREMENT', () => {
+        expect(
+            reducer([], {
+                type: COUNTER_INCREMENT,
+                payload: 1
+            })
+        ).toEqual("1")
+    })
+})
