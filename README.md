@@ -1,4 +1,4 @@
-# Taralite Starter Kit [![Build Status](https://travis-ci.org/Kelvinmijaya/taralite-starter-kit.svg?branch=master)](https://travis-ci.org/Kelvinmijaya/taralite-starter-kit)
+# ReactLite Starter Kit [![Build Status](https://travis-ci.org/Kelvinmijaya/reactlite-starter-kit.svg?branch=master)](https://travis-ci.org/Kelvinmijaya/reactlite-starter-kit)
 
 This project template was built with [Create React App](https://github.com/facebookincubator/create-react-app).
 
@@ -7,7 +7,7 @@ This project template was built with [Create React App](https://github.com/faceb
 First, clone the project:
 
 ```bash
-$ git clone https://github.com/Kelvinmijaya/taralite-starter-kit.git <my-project-name>
+$ git clone https://github.com/Kelvinmijaya/reactlite-starter-kit.git <my-project-name>
 $ cd <my-project-name>
 ```
 
@@ -66,6 +66,3 @@ This project wouldn't be possible without inspired from the community, so thanks
 * [Facebook Incubator](https://github.com/facebookincubator/create-react-app)
 * [David Zukowski](https://github.com/davezuko)
 * [Yansen Armandau](https://github.com/yansenarmandau)
-
-
-
