@@ -18,7 +18,7 @@ $ npm install                   # Install project dependencies
 $ npm start                     # Compile and launch
 ```
 
-#DEMO
+###DEMO
 
 ```bash
 [React Lite App](http://reactlite.kelvinmijaya.com)
