@@ -1,11 +1,11 @@
 {
-  "name": "taralite-starter-kit",
-  "description": "Taralite Starter Kit with React & Redux!",
+  "name": "reactlite-starter-kit",
+  "description": "ReactLite Starter Kit with React & Redux!",
   "version": "0.1.0",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kelvinmijaya/taralite-starter-kit.git"
+    "url": "git+https://github.com/kelvinmijaya/reactlite-starter-kit.git"
   },
   "author": "Kelvin Mijaya",
   "license": "MIT",

@@ -18,6 +18,12 @@ $ npm install                   # Install project dependencies
 $ npm start                     # Compile and launch
 ```
 
+#DEMO
+
+```bash
+[React Lite App](http://reactlite.kelvinmijaya.com)
+```
+
 ## Application Structure
 
 The application structure using fractal structure, where functionality is grouped and named by feature / module, it's very useful for modularity.
