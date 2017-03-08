@@ -20,9 +20,8 @@ $ npm start                     # Compile and launch
 
 ###DEMO
 
-```bash
 [React Lite App](http://reactlite.kelvinmijaya.com)
-```
+
 
 ## Application Structure
 
